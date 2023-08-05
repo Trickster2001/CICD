@@ -1,4 +1,32 @@
-sdf
-sdf
-sdf
-dsf
+# # This is representation of yaml file based on basic.json file content
+# myApp:
+#   services: my-CICD-APP
+#   test1: script1
+#   test2: script2
+#   # Multiline String
+#   multi: This is test.yml file 
+#     and this is how we write multiline string 
+#   # OR 
+#   multi2: |
+#     This is also and option
+#     For multiline string 
+#   myArray: 
+#     -Key1: value1
+#      keyRan: "ValueRan"
+#     -Key2: Value2
+#      keyRan: "ValueRan"
+
+
+# Github actions
+# First initialize name
+name: My First Github action
+# Then mention when this is going to execute
+# Like on push, commit, pull_request, etc
+# Most common is push. Which means whenever you push commit run this action 
+on: [push]
+jobs:
+  print-hello-world:
+    reuns-on: ubuntu-latest
+    steps:
+      - run: echon "Hello World!"
+      - run: echo "This is step 2"

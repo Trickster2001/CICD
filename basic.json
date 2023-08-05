@@ -1,0 +1,18 @@
+{
+  "myAPP": {
+    "services": "my-CICD-APP",
+    "test": "script1",
+    "test2": "script2",
+    "Multiline": "Hi this is jsonfile \n And this is how Multiline string works here",
+    "myArray": [
+      {
+        "Key1": "value1",
+        "keyRan": "Value Ran"
+      },
+      {
+        "Key2": "Value2",
+        "Keyran": "ValueRan"
+      }
+    ]
+  }
+}

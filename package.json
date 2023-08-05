@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "cd build && vercel --prod --token=uWCXLbYoBuWiZgbbTSF3iLO4",
+    "deploy": "vercel build --prod --token=uWCXLbYoBuWiZgbbTSF3iLO4",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
